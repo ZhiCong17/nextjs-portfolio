@@ -21,6 +21,23 @@ function Hero() {
   )
 }
 
+function ProjectCard({ project }) {
+  return (
+    <section className="mx-60 p-10 w-6/12 flex border-2 rounded-xl">
+      <Image
+          src="/istockphoto-1324356458-2048x2048.jpg"
+          alt="Image of project"
+          width={400}
+          height={400}
+        />
+      <div className="ms-20">
+        <h2 className="mt-14 mb-4">{project.title}</h2>
+        <p>{project.description}</p>
+      </div>
+    </section>
+  )
+}
+
 function Skill() {
   return (
     <section className="flex px-60 items-center my-40">
@@ -53,9 +70,23 @@ function Footer() {
 }
 
 export default function Home() {
+  const project1 = {
+    title: "FitBud",
+    description: "Fitbud is a mobile focused web application which is able to generate a gym workout plan for fitness enthusiast."
+  }
+
+  const project2 = {
+    title: "BitSpend",
+    description: "BitSpend is a mobile focused expense tracking web application which allows users to save and view expenses history."
+  }
+
   return (
     <div>
       <Hero />
+      <ProjectCard project={project1} />
+      <div className="flex justify-end mt-10">
+        <ProjectCard project={project2} />
+      </div>
       <Skill />
       <Footer />
     </div>
