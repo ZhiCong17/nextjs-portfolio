@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Footer from "./components/footer";
 
 function Hero() {
   return (
@@ -56,19 +55,6 @@ function Skill() {
   )
 }
 
-function Footer() {
-  return (
-    <div className="px-60 flex justify-between">
-      <p className="w-80">© Copyright 2024. Made by Ore Zhi Cong</p>
-      <p>Back To Top</p>
-      <div className="space-x-6 w-80 text-end">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-        <FontAwesomeIcon icon={faLinkedin} size="2x" />
-      </div>
-    </div>
-  )
-}
-
 export default function Home() {
   const project1 = {
     title: "FitBud",
@@ -87,8 +73,8 @@ export default function Home() {
       <div className="flex justify-end mt-10">
         <ProjectCard project={project2} />
       </div>
-      <Skill />
-      <Footer /> */}
+      <Skill /> */}
+      <Footer />
     </div>
   );
 }
