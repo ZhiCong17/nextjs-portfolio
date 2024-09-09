@@ -2,11 +2,11 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Navbar from "./components/navbar";
 
-import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
-config.autoAddCss = false
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
-const roboto = Roboto({ weight: "400" })
+const roboto = Roboto({ weight: "400" });
 
 export const metadata = {
   title: "Create Next App",
@@ -20,7 +20,9 @@ export default function RootLayout({ children }) {
         className={`${roboto.className} antialiased`}
       >
         <Navbar />
-        {children}
+        <div className="px-6 mx-auto max-w-sm md:max-w-3xl">
+          {children}
+        </div>
       </body>
     </html>
   );
