@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Roboto } from "next/font/google";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <div className="px-6 mx-auto max-w-sm md:max-w-3xl">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
