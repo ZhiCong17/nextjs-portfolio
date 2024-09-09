@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Skill from "./components/skill";
 import Footer from "./components/footer";
 
 function Hero() {
@@ -37,24 +38,6 @@ function ProjectCard({ project }) {
   )
 }
 
-function Skill() {
-  return (
-    <section className="flex px-60 items-center my-40">
-      <h2 className="mr-40">My Skills</h2>
-      <ul className="flex gap-x-4">
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">HTML5</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">CSS3</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Bootstrap</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Tailwind CSS</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">JavaScript</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">React</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Next.js</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Rails</li>
-      </ul>
-    </section>
-  )
-}
-
 export default function Home() {
   const project1 = {
     title: "FitBud",
@@ -72,10 +55,10 @@ export default function Home() {
       <ProjectCard project={project1} />
       <div className="flex justify-end mt-10">
         <ProjectCard project={project2} />
-      </div>
-      <Skill /> */}
+      </div> */}
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quos adipisci asperiores ut accusamus molestiae saepe exercitationem expedita natus cum quibusdam et pariatur enim, ipsa, voluptate sed nisi tenetur perferendis architecto sint provident. Quas voluptas maxime laudantium ullam amet, tempore rem natus in totam aperiam omnis inventore blanditiis quae earum qui architecto ipsa sequi minus fugit dolorem illum expedita aut! Ex aliquid delectus praesentium rem? Nihil nostrum, perferendis, officiis facilis adipisci maiores quisquam aliquid, ratione dolores voluptatem obcaecati. Quasi velit fuga aut possimus aliquam hic? Possimus porro officiis similique, cum dolorum illum. Similique adipisci possimus, laudantium aut repudiandae quae saepe.</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quos adipisci asperiores ut accusamus molestiae saepe exercitationem expedita natus cum quibusdam et pariatur enim, ipsa, voluptate sed nisi tenetur perferendis architecto sint provident. Quas voluptas maxime laudantium ullam amet, tempore rem natus in totam aperiam omnis inventore blanditiis quae earum qui architecto ipsa sequi minus fugit dolorem illum expedita aut! Ex aliquid delectus praesentium rem? Nihil nostrum, perferendis, officiis facilis adipisci maiores quisquam aliquid, ratione dolores voluptatem obcaecati. Quasi velit fuga aut possimus aliquam hic? Possimus porro officiis similique, cum dolorum illum. Similique adipisci possimus, laudantium aut repudiandae quae saepe.</p>
+      <Skill />
       <Footer />
     </div>
   );
