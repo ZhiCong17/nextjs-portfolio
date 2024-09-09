@@ -1,21 +1,12 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
+import { Roboto } from "next/font/google";
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const roboto = Roboto({ weight: "400" })
 
 export const metadata = {
   title: "Create Next App",
@@ -26,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.className} antialiased`}
       >
           <nav className="bg-sky-500 h-20 px-60 flex flex-row justify-between items-center">
             <Link href="/">ZHICONG</Link>
