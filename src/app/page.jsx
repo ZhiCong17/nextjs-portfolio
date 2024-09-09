@@ -82,13 +82,13 @@ export default function Home() {
 
   return (
     <div>
-      <Hero />
+      {/* <Hero />
       <ProjectCard project={project1} />
       <div className="flex justify-end mt-10">
         <ProjectCard project={project2} />
       </div>
       <Skill />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
