@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Skill from "./components/skill";
-import Footer from "./components/footer";
 
 function Hero() {
   return (
