@@ -74,6 +74,8 @@ export default function Home() {
         <ProjectCard project={project2} />
       </div>
       <Skill /> */}
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quos adipisci asperiores ut accusamus molestiae saepe exercitationem expedita natus cum quibusdam et pariatur enim, ipsa, voluptate sed nisi tenetur perferendis architecto sint provident. Quas voluptas maxime laudantium ullam amet, tempore rem natus in totam aperiam omnis inventore blanditiis quae earum qui architecto ipsa sequi minus fugit dolorem illum expedita aut! Ex aliquid delectus praesentium rem? Nihil nostrum, perferendis, officiis facilis adipisci maiores quisquam aliquid, ratione dolores voluptatem obcaecati. Quasi velit fuga aut possimus aliquam hic? Possimus porro officiis similique, cum dolorum illum. Similique adipisci possimus, laudantium aut repudiandae quae saepe.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quos adipisci asperiores ut accusamus molestiae saepe exercitationem expedita natus cum quibusdam et pariatur enim, ipsa, voluptate sed nisi tenetur perferendis architecto sint provident. Quas voluptas maxime laudantium ullam amet, tempore rem natus in totam aperiam omnis inventore blanditiis quae earum qui architecto ipsa sequi minus fugit dolorem illum expedita aut! Ex aliquid delectus praesentium rem? Nihil nostrum, perferendis, officiis facilis adipisci maiores quisquam aliquid, ratione dolores voluptatem obcaecati. Quasi velit fuga aut possimus aliquam hic? Possimus porro officiis similique, cum dolorum illum. Similique adipisci possimus, laudantium aut repudiandae quae saepe.</p>
       <Footer />
     </div>
   );
