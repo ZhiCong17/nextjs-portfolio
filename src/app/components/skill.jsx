@@ -1,16 +1,16 @@
 export default function Skill() {
   return (
-    <section className="flex px-60 items-center my-40">
-      <h2 className="mr-40">My Skills</h2>
-      <ul className="flex gap-x-4">
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">HTML5</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">CSS3</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Bootstrap</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Tailwind CSS</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">JavaScript</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">React</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Next.js</li>
-        <li className="border-2 bg-gray-400 rounded-md py-2 px-6">Rails</li>
+    <section className="md:flex my-20">
+      <h2 className="mb-5 md:w-5/12 text-2xl font-semibold">Tech Stack</h2>
+      <ul className="flex gap-1 flex-wrap">
+        <li className="bg-neutral-400 rounded-md py-2 px-3">HTML</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">CSS</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">Tailwind CSS</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">Bootstrap</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">JavaScript</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">React</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">Next.js</li>
+        <li className="bg-neutral-400 rounded-md py-2 px-3">Ruby on Rails</li>
       </ul>
     </section>
   )
