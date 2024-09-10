@@ -4,15 +4,16 @@ import Image from "next/image"
 
 export default function ProjectCard({ project }) {
   return (
-    <section className="mx-60 p-10 w-6/12 flex border-2 rounded-xl">
-      <Image
+    <section className="md:flex justify-between mt-20">
+      <div className="w-32 h-80 md:w-48 md:h-96 relative mx-auto md:mx-0">
+        <Image
           src="/istockphoto-1324356458-2048x2048.jpg"
           alt="Image of project"
-          width={400}
-          height={400}
+          fill={true}
         />
-      <div className="ms-20">
-        <h2 className="mt-14 mb-4">{project.title}</h2>
+      </div>
+      <div className="md:w-3/5">
+        <h2 className="my-4 text-xl font-semibold">{project.title}</h2>
         <p>{project.description}</p>
       </div>
     </section>
