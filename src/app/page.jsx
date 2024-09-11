@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <h2 className="text-center md:text-left mb-5 text-2xl font-semibold">Projects</h2>
       <ProjectCard project={project1} />
       {/* <div className="flex justify-end mt-10">
         <ProjectCard project={project2} />
