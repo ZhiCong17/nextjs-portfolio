@@ -5,7 +5,7 @@ import Skill from "./components/skill";
 export default function Home() {
   const project1 = {
     title: "FitBud",
-    description: "Fitbud is a mobile focused web application which is able to generate a gym workout plan for fitness enthusiast.",
+    description: "A mobile focused web application which generates gym workout plans for users based on their individual profile to help them achieve their fitness goal.",
     images: [
       { id: 0, src: "/FitBud/Home.png", alt: "Image of FitBud homepage" },
       { id: 1, src: "/FitBud/Profile.png", alt: "Image of FitBud profile page" },
@@ -16,7 +16,7 @@ export default function Home() {
 
   const project2 = {
     title: "BitSpend",
-    description: "BitSpend is a mobile focused expense tracking web application which allows users to save and view expenses history.",
+    description: "A mobile focused expense tracking web application which allows users to record and view expenses history to achieve their financial goal.",
     images: [
       { id: 0, src: "/BitSpend/Landing.png", alt: "Image of BitSpend landing page" },
       { id: 1, src: "/BitSpend/Record.png", alt: "Image of BitSpend home page" },
