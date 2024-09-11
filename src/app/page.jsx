@@ -4,6 +4,7 @@ import Skill from "./components/skill";
 
 export default function Home() {
   const project1 = {
+    id: 1,
     title: "FitBud",
     description: "A mobile focused web application which generates gym workout plans for users based on their individual profile to help them achieve their fitness goal.",
     images: [
@@ -15,6 +16,7 @@ export default function Home() {
   }
 
   const project2 = {
+    id: 2,
     title: "BitSpend",
     description: "A mobile focused expense tracking web application which allows users to record and view expenses history to achieve their financial goal.",
     images: [
