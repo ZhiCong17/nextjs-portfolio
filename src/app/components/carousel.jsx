@@ -41,6 +41,7 @@ export default function Carousel({ images }) {
             src={image.src}
             alt={image.alt}
             fill={true}
+            sizes="(max-width: 768px) 100vw, 33vw"
             style={{objectFit: "cover"}}
           />
         </div>
