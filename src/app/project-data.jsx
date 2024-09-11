@@ -1,4 +1,4 @@
-const fitBud = {
+export const fitBud = {
   id: 1,
   title: "FitBud",
   description: "A mobile focused web application which generates gym workout plans for users based on their individual profile to help them achieve their fitness goal.",
@@ -10,7 +10,7 @@ const fitBud = {
   ]
 }
 
-const bitSpend = {
+export const bitSpend = {
   id: 2,
   title: "BitSpend",
   description: "A mobile focused expense tracking web application which allows users to record and view expenses history to achieve their financial goal.",
