@@ -6,7 +6,11 @@ import { Lobster } from "next/font/google";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-const lobster = Lobster({ weight: "400"})
+const lobster = Lobster({
+  weight: "400",
+  subsets: ["latin"],
+  preload: false,
+})
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
