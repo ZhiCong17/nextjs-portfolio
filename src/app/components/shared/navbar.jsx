@@ -16,8 +16,8 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="px-6 bg-neutral-300 h-20 w-full sticky top-0">
-      <div className="mx-auto max-w-sm md:max-w-3xl flex flex-row justify-between h-full items-center">
+    <nav className="bg-neutral-300 h-20 w-full sticky top-0 z-50">
+      <div className="px-6 mx-auto max-w-sm md:max-w-3xl flex flex-row justify-between h-full items-center">
         <Link className={`${lobster.className} text-3xl`} href="/">ZHICONG</Link>
         <button className="md:hidden border p-2 rounded-md border-black" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} size="2xl"/>
