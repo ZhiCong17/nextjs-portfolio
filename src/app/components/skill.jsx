@@ -1,7 +1,7 @@
 export default function Skill() {
   return (
     <section className="md:flex my-20 text-center md:text-left">
-      <h2 className="mb-5 md:w-5/12 text-2xl font-semibold">Tech Stack</h2>
+      <h2 className="mb-10 md:w-5/12 md:mr-20 text-4xl font-semibold">Tech Stack</h2>
       <ul className="flex gap-1 flex-wrap justify-center md:justify-start">
         <li className="bg-neutral-400 rounded-md py-2 px-3">HTML</li>
         <li className="bg-neutral-400 rounded-md py-2 px-3">CSS</li>
