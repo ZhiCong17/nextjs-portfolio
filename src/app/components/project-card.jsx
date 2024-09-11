@@ -3,13 +3,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image"
 
-const imageList = [
-  { id: 0, src: "/FitBud/Home.png", alt: "Image of FitBud homepage" },
-  { id: 1, src: "/FitBud/Profile.png", alt: "Image of FitBud profile page" },
-  { id: 2, src: "/FitBud/Plan.png", alt: "Image of FitBud plan page" },
-  { id: 3, src: "/FitBud/Workout.png", alt: "Image of FitBud workout page" },
-]
-
 function Carousel({ images }) {
   const [currentImageId, setCurrentImageId] = useState(0);
 
@@ -71,7 +64,7 @@ function Carousel({ images }) {
 export default function ProjectCard({ project }) {
   return (
     <section className="md:flex justify-between mt-5 text-center md:text-left">
-      <Carousel images={imageList}/>
+      <Carousel images={project.images}/>
       <div className="md:ml-20">
         <h2 className="my-4 text-xl font-semibold">{project.title}</h2>
         <p>{project.description}</p>
