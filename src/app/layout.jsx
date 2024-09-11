@@ -7,7 +7,11 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
-const roboto = Roboto({ weight: "400" });
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+  preload: false,
+});
 
 export const metadata = {
   title: "Create Next App",
