@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <nav className="bg-neutral-300 h-20 w-full sticky top-0 z-50">
       <div className="px-6 mx-auto max-w-sm md:max-w-3xl flex flex-row justify-between h-full items-center">
-        <Link className={`${lobster.className} text-3xl`} href="/">ZHICONG</Link>
+        <Link className={`${lobster.className} text-3xl`} href="/" onClick={() => setIsMenuOpen(false)}>ZHICONG</Link>
         <button className="md:hidden border p-2 rounded-md border-black" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} size="2xl"/>
         </button>
@@ -36,13 +36,13 @@ export default function Navbar() {
         { isMenuOpen &&
           <ul className="">
             <li className="my-4 font-bold">
-              <Link href="/about">ABOUT</Link>
+              <Link href="/about" onClick={() => setIsMenuOpen(false)}>ABOUT</Link>
             </li>
             <li className="my-4 font-bold">
-              <Link href="/porfolio">PORTFOLIO</Link>
+              <Link href="/porfolio" onClick={() => setIsMenuOpen(false)}>PORTFOLIO</Link>
             </li>
             <li className="my-4 font-bold">
-              <Link href="/contact">CONTACT</Link>
+              <Link href="/contact" onClick={() => setIsMenuOpen(false)}>CONTACT</Link>
             </li>
           </ul>
         }
