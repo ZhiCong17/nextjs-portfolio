@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${roboto.className} antialiased`}
       >
         <Navbar />
-        <div className="px-6 mx-auto max-w-sm md:max-w-3xl">
+        <div className="mt-10 px-6 mx-auto max-w-sm md:max-w-3xl">
           {children}
         </div>
         <Footer />

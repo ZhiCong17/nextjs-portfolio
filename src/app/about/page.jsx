@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <h1 className="text-center md:text-left mt-20 text-4xl font-semibold">About Me</h1>
+      <h1 className="text-center md:text-left text-4xl font-semibold">About Me</h1>
       <p className="text-center md:text-left mt-5">Hello! I&apos;m Zhi Cong, an inspiring web developer from the vibrant garden city Singapore. Previously worked as a drafter and Building Information Modeling (BIM) modeler, where I specialized in creating detailed 2D drawings and 3D models for mechanical services.</p>
       <p className="text-center md:text-left mt-5">Driven by a passion for technology and creativity, I decided to transit into web development with a focus on front-end technologies. My goal is to craft inspiring and impactful web applications that offer exceptional user experiences.</p>
       <p className="text-center md:text-left mt-5">When I&apos;m not coding, you&apos;ll likely find me at the gym, jogging around the neighborhood, or indulging in my favorite anime series. I&apos;m always eager to learn new things and take on exciting challenges in the ever-evolving world of web development.</p>
