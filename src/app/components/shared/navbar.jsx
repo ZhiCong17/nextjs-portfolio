@@ -28,7 +28,7 @@ export default function Navbar() {
         </button>
         <div className="hidden md:block">
           <Link href="/about" className="font-bold mx-6 hover:text-2xl duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none">ABOUT</Link>
-          <Link href="/porfolio" className="font-bold font-bold mx-6 hover:text-2xl duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none">PORTFOLIO</Link>
+          <Link href="/portfolio" className="font-bold font-bold mx-6 hover:text-2xl duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none">PORTFOLIO</Link>
           <Link href="/contact" className="font-bold mx-6 hover:text-2xl duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none">CONTACT</Link>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
               <Link href="/about" onClick={() => setIsMenuOpen(false)}>ABOUT</Link>
             </li>
             <li className="my-4 font-bold">
-              <Link href="/porfolio" onClick={() => setIsMenuOpen(false)}>PORTFOLIO</Link>
+              <Link href="/portfolio" onClick={() => setIsMenuOpen(false)}>PORTFOLIO</Link>
             </li>
             <li className="my-4 font-bold">
               <Link href="/contact" onClick={() => setIsMenuOpen(false)}>CONTACT</Link>
