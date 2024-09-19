@@ -16,7 +16,7 @@ export const bitSpend = {
   description: "A mobile expense tracking web application which allows users to record and view expenses history to achieve their financial goal.",
   images: [
     { id: 0, src: "/BitSpend/Landing.png", alt: "Image of BitSpend landing page" },
-    { id: 1, src: "/BitSpend/Record.png", alt: "Image of BitSpend home page" },
+    { id: 1, src: "/BitSpend/Record.png", alt: "Image of BitSpend homepage" },
     { id: 2, src: "/BitSpend/Analysis.png", alt: "Image of BitSpend analysis page" },
     { id: 3, src: "/BitSpend/Expenses.png", alt: "Image of BitSpend expenses page" },
   ]
