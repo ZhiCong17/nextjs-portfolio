@@ -5,13 +5,14 @@ import Link from "next/link";
 export default function Page() {
   return (
     <section>
-      <h1 className="text-center md:text-left text-4xl font-semibold mb-5">My Projects</h1>
-      <h2 className="mb-5 text-xl font-semibold text-center md:text-left">1) FitBud</h2>
+      <h1 className="text-4xl font-semibold mb-5">My Projects</h1>
+      <h2 className="mb-5 text-xl font-semibold">1) FitBud</h2>
       <div className="md:float-right md:ml-20 md:mb-5">
         <Carousel images={fitBud.images} />
       </div>
       <p>GitHub: <Link className="text-blue-400 hover:underline" href="https://github.com/ZhiCong17/fitbud" target="_blank" rel="noopener noreferrer">https://github.com/ZhiCong17/fitbud</Link></p>
       <p>Demo: </p>
+      <p>Technology: HTML, CSS, Bootstrap, Sass, JavaScript, Ruby on Rails, PostgreSQL</p>
       <p className="mt-5"><strong>Overview:</strong> During my web development bootcamp, I pitched FitBud as my final project—a mobile fitness web application designed for individuals looking to kickstart their gym journey, especially those who feel hesitant due to a lack of knowledge. As the product owner, I was responsible for defining the overall vision and direction of FitBud. Collaborating closely with my team and under the guidance of our trainers, we built FitBud from the ground up, covering everything from product design to project management.</p>
       <p className="mt-5"><strong>Key Features:</strong> The main function of FitBud is to generate personalized workout plans. By collecting essential information from users&apos; profile—such as fitness goal, age, and weight—we leverage modern AI technology to create tailored workout plans that cater to each user&apos;s needs.</p>
       <p className="mt-5"><strong>My Contribution:</strong> I developed the Exercise Page, which serves as a comprehensive guide to the exercises included in users’ workout plans. This page features:</p>
@@ -23,12 +24,13 @@ export default function Page() {
       </ul>
       <p className="mt-5"><strong>Impact:</strong> By prioritizing user experience and accessibility, FitBud aims to empower individuals to overcome their initial hesitations about starting their fitness journey. This project not only honed my technical skills but also taught me valuable lessons in teamwork, communication, and user-centered design.</p>
 
-      <h2 className="mb-5 mt-14 text-xl font-semibold text-center md:text-left">2) BitSpend</h2>
+      <h2 className="mb-5 mt-14 text-xl font-semibold">2) BitSpend</h2>
       <div className="md:float-right md:ml-20 md:mb-5">
         <Carousel images={bitSpend.images} />
       </div>
       <p>GitHub: <Link className="text-blue-400 hover:underline" href="https://github.com/IvanCSQ/BitSpend" target="_blank" rel="noopener noreferrer">https://github.com/IvanCSQ/BitSpend</Link></p>
       <p>Demo: </p>
+      <p>Technology: HTML, CSS, Sass, JavaScript, Ruby on Rails, PostgreSQL</p>
       <p className="mt-5"><strong>Overview:</strong> After completing my web development bootcamp, I collaborated with fellow coursemates to create BitSpend—a mobile web application designed to help young professionals manage their spending effectively. Recognizing the challenges many face in tracking expenses across multiple categories and payment methods, BitSpend aims to simplify this process and alleviate financial stress, enabling users to focus on their long-term financial goals.</p>
       <p className="mt-5"><strong>Key Features:</strong> BitSpend&apos;s primary function is to facilitate seamless expense tracking. Users can record their daily expenses through two intuitive methods:</p>
       <ul className="list-disc list-inside">
