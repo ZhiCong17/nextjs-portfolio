@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
   let divClass;
   const displayPic = project.images.find(image => image.alt.includes("homepage"));
 
-  project.id % 2 === 0 ? cardClass = "md:flex md:flex-row-reverse justify-between mt-5 mb-14 text-center md:text-left" : cardClass = "md:flex justify-between mt-5 mb-14 text-center md:text-left";
+  project.id % 2 === 0 ? cardClass = "md:flex md:flex-row-reverse justify-between mt-5 mb-14" : cardClass = "md:flex justify-between mt-5 mb-14";
   project.id % 2 === 0 ? divClass = "md:ml-20 mb-5 md:w-3/5" : divClass = "md:mr-20 mb-5 md:w-3/5";
 
   return (

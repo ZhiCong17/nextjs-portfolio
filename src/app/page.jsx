@@ -7,7 +7,7 @@ export default function Home() {
     return (
     <div>
       <Hero />
-      <h2 className="text-center md:text-left mb-10 text-4xl font-semibold">Projects</h2>
+      <h2 className="md:text-left mb-10 text-4xl font-semibold">Projects</h2>
       <ProjectCard project={fitBud} />
       <ProjectCard project={bitSpend} />
       <Skill />
