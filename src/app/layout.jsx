@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} antialiased`}
+        className={`${roboto.className} antialiased bg-neutral-100`}
       >
         <Navbar />
         <div className="mt-10 px-6 mx-auto max-w-sm md:max-w-3xl">
