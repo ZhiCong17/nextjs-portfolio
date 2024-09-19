@@ -43,7 +43,7 @@ export default function Page() {
         <li className="mt-1"><strong>Total Monthly Expense:</strong> Users can quickly see their total expenditures for the selected month.</li>
         <li className="mt-1"><strong>Categorized Expense List:</strong> A dropdown menu allows users to filter expenses by category, enhancing usability and understanding of spending habits.</li>
       </ul>
-      <p className="mt-5 mb-20"><strong>Impact:</strong> By focusing on user-friendly design and intuitive features, BitSpend empowers young professionals to take control of their finances. This project not only strengthened my technical skills but also deepened my understanding of user experience and collaborative development practices.</p>
+      <p className="mt-5 mb-14"><strong>Impact:</strong> By focusing on user-friendly design and intuitive features, BitSpend empowers young professionals to take control of their finances. This project not only strengthened my technical skills but also deepened my understanding of user experience and collaborative development practices.</p>
     </section>
   )
 }

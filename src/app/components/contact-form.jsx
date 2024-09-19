@@ -44,7 +44,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form action="" className="mb-20" onSubmit={handleSubmit}>
+    <form action="" className="mb-14" onSubmit={handleSubmit}>
       <label className="block" htmlFor="name">Name</label>
       <input
         className="border rounded-md p-1 mb-5 mt-2 w-full"

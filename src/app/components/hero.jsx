@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <section className="text-center mb-20">
+      <section className="text-center mb-14">
         <Image
           src="/Me.jpg"
           width={180}
