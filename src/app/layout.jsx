@@ -2,6 +2,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Navbar from "./components/shared/navbar";
 import Footer from "./components/shared/footer";
+import { Providers } from "./providers";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -20,15 +21,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${roboto.className} antialiased bg-neutral-100`}
+        className={`${roboto.className} dark:bg-darkbg dark:text-darktext antialiased`}
       >
-        <Navbar />
-        <div className="mt-10 px-6 mx-auto max-w-sm md:max-w-3xl">
-          {children}
-        </div>
-        <Footer />
+        <Providers>
+          <Navbar />
+          <div className="mt-10 px-6 mx-auto max-w-sm md:max-w-3xl">
+            {children}
+          </div>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
