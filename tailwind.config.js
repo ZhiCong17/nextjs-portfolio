@@ -15,6 +15,7 @@ module.exports = {
         "darktext": "#ffffff",
         "lightnavbg": "#BCB8B1",
         "darknavbg": "#3d3d3d",
+        "darkforminput": "#212121",
       },
     },
   },

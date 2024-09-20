@@ -47,14 +47,14 @@ export default function ContactForm() {
     <form action="" className="mb-14" onSubmit={handleSubmit}>
       <label className="block" htmlFor="name">Name</label>
       <input
-        className="border rounded-md p-1 mb-5 mt-2 w-full"
+        className="border rounded-md p-1 mb-5 mt-2 w-full bg-darkforminput"
         type="text"
         name="name"
         value={formData.name}
         onChange={handleChange}
         required />
       <label className="block" htmlFor="email">Email</label>
-      <input className="border rounded-md p-1 mb-5 mt-2 w-full"
+      <input className="border rounded-md p-1 mb-5 mt-2 w-full bg-darkforminput"
         type="text"
         name="email"
         value={formData.email}
@@ -62,14 +62,14 @@ export default function ContactForm() {
         required />
       <label className="block" htmlFor="message">Message</label>
       <textarea
-        className="border rounded-md p-1 mb-5 mt-2 w-full"
+        className="border rounded-md p-1 mb-5 mt-2 w-full bg-darkforminput"
         rows="5"
         type="text"
         name="message"
         value={formData.message}
         onChange={handleChange}
         required />
-      <input type="submit" className="bg-gray-300 py-1 px-4 mb-2 rounded-md"/>
+      <input type="submit" className="bg-neutral-400 py-1 px-4 mb-2 rounded-md"/>
       <p className={statusClassName}>{status}</p>
     </form>
   )
