@@ -8,7 +8,7 @@ export default function Hero() {
           src="/Me.jpg"
           width={180}
           height={180}
-          className="rounded-full aspect-square object-cover mx-auto"
+          className="rounded-full aspect-square object-cover mx-auto shadow-lg shadow-neutral-500"
           alt="Image of creator"
           priority={true}
         />
