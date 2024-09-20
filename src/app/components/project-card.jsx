@@ -14,7 +14,7 @@ export default function ProjectCard({ project }) {
         <h2 className="mt-5 mb-5 text-xl font-semibold">{project.id}) {project.title}</h2>
         <p>{project.description}</p>
       </div>
-      <div className="w-44 h-80 md:w-52 md:h-96 relative mx-auto">
+      <div className="w-44 h-80 md:w-52 md:h-96 relative mx-auto rounded-lg overflow-hidden shadow-lg shadow-neutral-500 dark:shadow-neutral-800">
         <Image
           src={displayPic.src}
           alt={displayPic.alt}
