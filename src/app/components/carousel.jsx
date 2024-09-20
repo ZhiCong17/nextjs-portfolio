@@ -36,7 +36,7 @@ export default function Carousel({ images }) {
         >
           &lt;
         </button>
-        <div className="w-44 h-80 md:w-52 md:h-96 relative mx-4">
+        <div className="w-44 h-80 md:w-52 md:h-96 relative mx-4 rounded-lg overflow-hidden shadow-lg shadow-neutral-500">
           <Image
             src={image.src}
             alt={image.alt}
