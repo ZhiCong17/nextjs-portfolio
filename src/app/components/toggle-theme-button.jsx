@@ -20,12 +20,12 @@ export default function ToggleThemeButton() {
 
   buttonContent = theme === "light" ?
   <div className="w-16 h-8 rounded-full bg-foreground flex justify-between items-center">
-    <div className="w-6 h-6 rounded-full bg-lightnavbg ml-1"></div>
+    <div className="w-6 h-6 rounded-full bg-lightNavBg ml-1"></div>
     <FontAwesomeIcon icon={faMoon} className="mr-2 text-background" size="xl" />
   </div> :
-  <div className="w-16 h-8 rounded-full bg-darktext flex justify-between items-center">
-    <FontAwesomeIcon icon={faSun} className="ml-2 text-darkbg" size="lg" />
-    <div className="w-6 h-6 rounded-full bg-darknavbg mr-1"></div>
+  <div className="w-16 h-8 rounded-full bg-darkText flex justify-between items-center">
+    <FontAwesomeIcon icon={faSun} className="ml-2 text-darkBg" size="lg" />
+    <div className="w-6 h-6 rounded-full bg-darkNavBg mr-1"></div>
   </div>
 
   return (

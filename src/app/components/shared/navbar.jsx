@@ -24,11 +24,11 @@ export default function Navbar() {
   isMenuOpen === false ? navLinksClass = "hidden md:flex gap-x-5" : navLinksClass = "absolute right-0 text-right ";
 
   return (
-    <nav className="bg-lightnavbg dark:bg-darknavbg h-20 w-full sticky top-0 z-50">
+    <nav className="bg-lightNavBg dark:bg-darkNavBg h-20 w-full sticky top-0 z-50">
       <div className="px-6 mx-auto max-w-sm md:max-w-3xl flex flex-row justify-between h-full items-center">
         <Link className={`${lobster.className} text-3xl`} href="/" onClick={() => setIsMenuOpen(false)}>ZHICONG</Link>
         <div className="relative text-right">
-          <button className="md:hidden border p-2 rounded-md border-foreground dark:border-darktext" onClick={toggleMenu}>
+          <button className="md:hidden border p-2 rounded-md border-foreground dark:border-darkText" onClick={toggleMenu}>
             <FontAwesomeIcon icon={faBars} size="2xl"/>
           </button>
           <ul className={navLinksClass}>

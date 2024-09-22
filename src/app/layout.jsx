@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${roboto.className} dark:bg-darkbg dark:text-darktext antialiased`}
+        className={`${roboto.className} dark:bg-darkBg dark:text-darkText antialiased`}
       >
         <Providers>
           <Navbar />
