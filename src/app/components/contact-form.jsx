@@ -50,6 +50,8 @@ export default function ContactForm() {
         className="border rounded-md p-1 mb-5 mt-2 w-full dark:bg-darkFormInput"
         type="text"
         name="name"
+        id="name"
+        autoComplete="name"
         value={formData.name}
         onChange={handleChange}
         required />
@@ -57,6 +59,8 @@ export default function ContactForm() {
       <input className="border rounded-md p-1 mb-5 mt-2 w-full dark:bg-darkFormInput"
         type="text"
         name="email"
+        id="email"
+        autoComplete="email"
         value={formData.email}
         onChange={handleChange}
         required />
@@ -66,6 +70,7 @@ export default function ContactForm() {
         rows="5"
         type="text"
         name="message"
+        id="message"
         value={formData.message}
         onChange={handleChange}
         required />
