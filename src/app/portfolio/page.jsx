@@ -11,7 +11,7 @@ export default function Page() {
         <Carousel images={fitBud.images} />
       </div>
       <p>GitHub: <Link className="text-blue-400 hover:underline" href="https://github.com/ZhiCong17/fitbud" target="_blank" rel="noopener noreferrer">https://github.com/ZhiCong17/fitbud</Link></p>
-      <p>Demo: </p>
+      <p>Demo: <Link className="text-blue-400 hover:underline" href="https://www.youtube.com/watch?v=lxjk8v19DQM" target="_blank">https://www.youtube.com/watch?v=lxjk8v19DQM</Link></p>
       <p>Technology: HTML, CSS, Bootstrap, Sass, JavaScript, Ruby on Rails, PostgreSQL</p>
       <p className="mt-5"><strong>Overview:</strong> During my web development bootcamp, I pitched FitBud as my final project—a mobile fitness web application designed for individuals looking to kickstart their gym journey, especially those who feel hesitant due to a lack of knowledge. As the product owner, I was responsible for defining the overall vision and direction of FitBud. Collaborating closely with my team and under the guidance of our trainers, we built FitBud from the ground up, covering everything from product design to project management.</p>
       <p className="mt-5"><strong>Key Features:</strong> The main function of FitBud is to generate personalized workout plans. By collecting essential information from users&apos; profile—such as fitness goal, age, and weight—we leverage modern AI technology to create tailored workout plans that cater to each user&apos;s needs.</p>
@@ -28,8 +28,8 @@ export default function Page() {
       <div className="md:float-right md:ml-20 md:mb-5">
         <Carousel images={bitSpend.images} />
       </div>
-      <p>GitHub: <Link className="text-blue-400 hover:underline" href="https://github.com/IvanCSQ/BitSpend" target="_blank" rel="noopener noreferrer">https://github.com/IvanCSQ/BitSpend</Link></p>
-      <p>Demo: </p>
+      <p>GitHub: <Link className="text-blue-400 hover:underline" href="https://github.com/IvanCSQ/BitSpend" target="_blank">https://github.com/IvanCSQ/BitSpend</Link></p>
+      <p>Demo: <Link className="text-blue-400 hover:underline" href="https://www.youtube.com/watch?v=_rOA-8KPBiM" target="_blank">https://www.youtube.com/watch?v=_rOA-8KPBiM</Link></p>
       <p>Technology: HTML, CSS, Sass, JavaScript, Ruby on Rails, PostgreSQL</p>
       <p className="mt-5"><strong>Overview:</strong> After completing my web development bootcamp, I collaborated with fellow coursemates to create BitSpend—a mobile web application designed to help young professionals manage their spending effectively. Recognizing the challenges many face in tracking expenses across multiple categories and payment methods, BitSpend aims to simplify this process and alleviate financial stress, enabling users to focus on their long-term financial goals.</p>
       <p className="mt-5"><strong>Key Features:</strong> BitSpend&apos;s primary function is to facilitate seamless expense tracking. Users can record their daily expenses through two intuitive methods:</p>
